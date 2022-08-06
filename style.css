@@ -1,0 +1,151 @@
+/*-------QUICK INVENTORY------
+
+------------COLORS------------
+    
+
+------------------------------
+------------RESET-------------
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+------------------------------
+----------EVOKE FONT----------
+font-family: 'Crete Round', serif;
+
+
+----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+
+/*----------RESETS-----------*/
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Crete Round', serif;
+}
+
+li {
+    list-style: none;
+}
+
+/*----------------------------*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+main {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.center-logo{
+   margin: 50px 0 15px 0; 
+}
+
+.select-user-text{
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.global-user-box{
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.user-box {
+    width: 160px;
+    height: 200px;
+    margin: 5px;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;    
+    gap: 12px;
+    color: rgba(255, 255, 255, 0.836);  
+    transition: all 0,2s ease 0.04s;
+}
+
+.user-image {
+    max-width: 160px;
+    max-height: 160px;
+    min-width: 160px;
+    min-height: 160px;
+    border-radius: 13px;
+    padding: 10px 10px 7px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: all 0.5s ease 0s;
+}
+
+.user-image img {
+    max-height: 160px;
+    max-width: 160px;
+    border-radius: 10px;
+    
+}
+
+
+.container-btn-manage-users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin: 100px;
+    
+}
+
+.btn-manage-users {
+    width: 180px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    transition: all 0.3s ease 0s;
+}
+
+/*------EFEITOS ESPECIAIS------*/
+
+.user-image:hover {
+    border: 4px solid white;
+    border-radius: 14px;
+    padding: 0px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+       
+    
+}
+
+.btn-manage-users:hover {
+    font-size: 15.5px;
+    width: 185px;
+    height: 45px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    
+}
+
+.user-box:hover{
+    color: white;
+    font-size: 17px;
+    transition: all 0.3s ease 0s;
+}
