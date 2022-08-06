@@ -99,6 +99,11 @@ main {
     
 }
 
+#add-user {
+    opacity: 50%;
+    transition: all 0.3s ease 0.05s;
+}
+
 
 .container-btn-manage-users {
     display: flex;
@@ -152,4 +157,10 @@ main {
 
 .main-logo:hover{
     cursor: pointer;    
+ 
+}
+
+#add-user:hover {
+    opacity: 100%;
+    transition: all 0.6s ease none;
 }
