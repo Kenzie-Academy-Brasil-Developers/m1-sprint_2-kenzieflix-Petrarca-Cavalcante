@@ -149,3 +149,7 @@ main {
     font-size: 17px;
     transition: all 0.3s ease 0s;
 }
+
+.main-logo:hover{
+    cursor: pointer;    
+}
